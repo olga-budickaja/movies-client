@@ -1,0 +1,28 @@
+{
+  "some": "Some",
+  "menu": {
+    "home": "Головна",
+    "store": "Стор",
+    "categories": "Жанри",
+    "discover": "Відкриття",
+    "animation": "Анімації",
+    "ui": "Ui"
+  },
+  "right-menu": {
+    "search": "Пошук...",
+    "login": "Увійти",
+    "logout": "Вийти",
+    "en": "анг",
+    "uk": "ук"
+  },
+  "movies": {
+    "min": "хвил.",
+    "original_title": "Оригінальна назва"
+  },
+  "sort": {
+    "title": "Сортувати за",
+    "popularity": "популярністю",
+    "budget": "бюджетом",
+    "release_date": "датою виходу"
+  }
+}

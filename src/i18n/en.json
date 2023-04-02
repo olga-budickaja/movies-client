@@ -1,0 +1,28 @@
+{
+  "some": "Some",
+  "menu": {
+    "home": "Home",
+    "store": "Store",
+    "categories": "Genres",
+    "discover": "Discover",
+    "animation": "Animation",
+    "ui": "Ui"
+  },
+  "right-menu": {
+    "search": "Search...",
+    "login": "Log in",
+    "logout": "Log out",
+    "en": "en",
+    "uk": "uk"
+  },
+  "movies": {
+    "min": "min.",
+    "original_title": "Original title"
+  },
+  "sort": {
+    "title": "Sort by",
+    "popularity": "popularity",
+    "budget": "budget",
+    "release_date": "release date"
+  }
+}
