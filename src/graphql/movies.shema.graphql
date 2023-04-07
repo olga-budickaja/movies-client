@@ -1,0 +1,16 @@
+#type Movie {
+#    id: ID!
+#    original_title: String
+#    poster_path: String
+#    release_date: String
+#    runtime: Int
+#    title: String
+#    budget: Float
+#    overview: String
+#    tagline: String
+#    popularity: Float
+#}
+#
+#type Query {
+#    movies: [Movie]
+#}

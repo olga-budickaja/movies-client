@@ -6,6 +6,7 @@
         color="blue"
         outlined="outlined"
         rounded="rounded"
+        @click="$router.push(`/register`)"
     />
   </div>
 </template>

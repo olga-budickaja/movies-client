@@ -4,9 +4,7 @@
     "home": "Home",
     "store": "Store",
     "categories": "Genres",
-    "discover": "Discover",
-    "animation": "Animation",
-    "ui": "Ui"
+    "graph": "Graph"
   },
   "right-menu": {
     "search": "Search...",
@@ -24,5 +22,49 @@
     "popularity": "popularity",
     "budget": "budget",
     "release_date": "release date"
+  },
+  "form": {
+    "register": {
+    "title": "Register"
+    },
+    "login": {
+      "title": "Log in"
+    },
+    "logout": {
+      "title": "Log out"
+    },
+    "required": "This field must be required!",
+    "firstName": {
+      "label": "first name",
+      "placeholder": "Input your first name",
+      "errorMin": "The name must be at least 2 characters!",
+      "errorMax": "The name must be no more than 12 characters!"
+    },
+    "lastName": {
+      "label": "last name",
+      "placeholder": "Input your last name",
+      "errorMin": "The last name must be at least 2 characters!",
+      "errorMax": "The last name must be no more than 12 characters!"
+    },
+    "email": {
+      "label": "email*",
+      "placeholder": "Input your email*",
+      "error": "Wrong email!"
+    },
+    "password": {
+      "label": "password*",
+      "placeholder": "Input your password*",
+      "errorMin": "The password must be at least 6 characters!",
+      "errorMax": "The password must be no more than 18 characters!"
+    },
+    "confirmPassword": {
+      "label": "confirm password*",
+      "placeholder": "Input your confirm password*",
+      "error": "Passwords must match!"
+    },
+    "dateOfBirth": {
+      "label": "date of birth*",
+      "placeholder": "Input your your date of birth*"
+    }
   }
 }

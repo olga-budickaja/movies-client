@@ -12,7 +12,8 @@ export default class UMenu extends Vue {
   links = [
     {name: 'home', link: '/'},
     {name: 'store', link: '/store'},
-    {name: 'categories', link: '/categories', drop: true},
+    {name: 'categories', link: '', drop: true},
+    {name: 'graph', link: '/graph'},
   ]
   genreLinks: any = []
 

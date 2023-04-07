@@ -19,6 +19,21 @@ const routes: Array<RouteConfig> = [
     name: 'genre-page',
     component: () => import('../views/GenrePage.vue')
   },
+  {
+    path: '/register',
+    name: 'register-page',
+    component: () => import('../views/RegisterPage.vue')
+  },
+  {
+    path: '/login',
+    name: 'login-page',
+    component: () => import('../views/LoginPage.vue')
+  },
+  {
+    path: '/graph',
+    name: 'graph-page',
+    component: () => import('../views/GraphMoviesPage.vue')
+  },
 ]
 
 const router = new VueRouter({

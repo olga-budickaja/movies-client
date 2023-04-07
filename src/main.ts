@@ -18,8 +18,13 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import i18n from './i18n'
 import VueNeo4j from 'vue-neo4j'
+import VueApollo from "vue-apollo";
+import {apolloProvider} from "../apollo.config";
 
+
+Vue.use(VueApollo)
 Vue.use(VueNeo4j)
+require('./vee-validate')
 
 library.add(
     faMagnifyingGlass,
@@ -43,5 +48,6 @@ new Vue({
   router,
   store,
   i18n,
+  apolloProvider,
   render: h => h(App)
 }).$mount('#app')

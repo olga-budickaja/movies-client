@@ -1,6 +1,6 @@
 <template>
   <div>
-    <UIBackground url="@/assets/background.jpg">{{ genreName }}</UIBackground>
+    <UIBanner image-url="../../assets/background-genres.jpg" :title="genreName"/>
     <UMoviesList type="genre" :movies="moviesList" />
   </div>
 </template>
@@ -8,10 +8,10 @@
 <script lang="ts">
 import {Component, Vue} from 'vue-property-decorator';
 import UMoviesList from "@/components/movies/UMoviesList.vue";
-import UIBackground from "@/components/UI/UIBackground.vue";
+import UIBanner from "@/components/UI/UIBanner.vue";
 
 @Component({
-  components: {UIBackground, UMoviesList}
+  components: {UIBanner, UMoviesList}
 })
 export default class GenrePage extends Vue {
   genreName: string = this.$route.params.genreName

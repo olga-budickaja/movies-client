@@ -18,6 +18,7 @@ export default class USidebarMenu extends Vue {
     {name: 'home', link: '/'},
     {name: 'store', link: '/store'},
     {name: 'categories', link: '/categories', sub: 'sub'},
+    {name: 'graph', link: '/graph'},
   ];
 
   genreLinks: any = []

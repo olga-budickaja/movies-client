@@ -7,33 +7,37 @@
 
 <script lang="ts">
 import {Component, Vue} from 'vue-property-decorator';
+
 @Component
 export default class ULang extends Vue {
   private language: string = 'en';
-  private messages: Record<string, any> = {};
 
+  private messages: Record<string, any> = {};
   created() {
+    this.language = localStorage.getItem('lang') || 'en'; // читаем сохраненный язык из localStorage
     this.loadMessages();
   }
-
   private loadMessages(): void {
     // load messages based on selected language
+    this.messages = this.$i18n.messages[this.language];
+
     if (this.language === 'en') {
       this.messages = require('@/i18n/en.json');
     } else if (this.language === 'uk') {
       this.messages = require('@/i18n/uk.json');
     }
   }
-
   private changeLanguage(): void {
     // toggle language between en and uk
     this.language = this.language === 'en' ? 'uk' : 'en';
     this.$i18n.locale = this.language;
     this.loadMessages();
+    localStorage.setItem('lang', this.language);
   }
-
 }
 </script>
+
+
 
 <style scoped>
 .lang {

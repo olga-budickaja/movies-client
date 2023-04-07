@@ -36,7 +36,6 @@ export default class App extends Vue {
 <style lang="scss" scoped>
 .content {
   margin-left: 250px !important;
-  padding: 67px 37px 40px;
   transition: 0.5s;
   &_full {
     margin-left: 0 !important;

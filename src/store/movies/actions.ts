@@ -37,7 +37,6 @@ export const actions: ActionTree<MoviesState, RootState> = {
                 // фильтр для удаления объектов без изображений
                 state.movies = state.movies.filter((item) => item.poster_path !== 'https://placehold.it/300x450?text=No+Image');
             });
-            console.log(state.movies)
         } catch (e) {
             console.log(e)
         }

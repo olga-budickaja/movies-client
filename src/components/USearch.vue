@@ -62,4 +62,9 @@ export default class USearch extends Vue {
     }
   }
 }
+@media only screen and (max-width: 450px) {
+  .search__banner {
+    height: 40px !important;
+  }
+}
 </style>
